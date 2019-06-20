@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=InventoryMgmt
+spring.datasource.username=sa
+spring.datasource.password=snita123
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.jpa.show-sql=true
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.hibernate.ddl-auto = update
+
+
+
+spring.h2.console.enabled=true
+spring.datasource.platform=h2
+spring.datasource.url=jdbc:h2:mem:inventorymgmt
